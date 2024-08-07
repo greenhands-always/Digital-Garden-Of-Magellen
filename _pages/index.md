@@ -4,30 +4,22 @@ title: Home
 id: home
 permalink: /
 ---
+Hi，我是Magellen，一个新手开发者。
+欢迎来到的我的博客，这里是我的个人知识库，关注程序员精进、效率工具、个人成长。
 
-# Welcome! 🌱
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+**持续更新：**
+飞书知识库：[不可替代：大颠覆时代的生存之道](https://kv57sk4imd.feishu.cn/wiki/F36EwpIsDiSZCdk9aSecgl9Qnnd?fromScene=spaceOverview)
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+[[快速下班指南]]：致力于提高个人效率。
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
-<strong>Recently updated notes</strong>
+**最近创建：**
 
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% assign recent_notes = site.notes | sort: "date created" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date created']}} — [{{ note.title }}](https://github.com/oldwinter/dg/blob/master/_pages/%7B%7B%20note.url%20%7D%7D)
+{% endfor %}
 
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+**最近更新：**
+
+{% assign recent_notes = site.notes | sort: "date modified" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date modified']}} — [{{ note.title }}](https://github.com/oldwinter/dg/blob/master/_pages/%7B%7B%20note.url%20%7D%7D)
+{% endfor %}
