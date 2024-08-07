@@ -77,9 +77,9 @@ shift+鼠标左键单击文章一处：选中光标当前位置到鼠标单击�
 
 点击红框空白处，可以选中文件路径。也可以在框内输入要打开的文件路径，按回车就会跳转到目标文件夹。
 点击红框带字部分，可以快速跳到对应文件夹下。
-![[Pasted image 20231102231043.png]]
+![Pasted image 20231102231043](https://obsidian-notes-of-huangyh.oss-cn-hangzhou.aliyuncs.com/Pasted%20image%2020231102231043.png)
 程序员朋友可以输入cmd，就可以打开一个工作目录就在该文件夹下的终端。：
-![[Pasted image 20231102233224.png]]
+![Pasted image 20231102233224](https://obsidian-notes-of-huangyh.oss-cn-hangzhou.aliyuncs.com/Pasted%20image%2020231102233224.png)
 按f4可以实现和点击红框空白处类似的效果。
 
 ## 文件的选取：
@@ -88,10 +88,10 @@ shift+鼠标左键单击文章一处：选中光标当前位置到鼠标单击�
 文件夹处shift逻辑和文本处shift逻辑类似：按住shift会选中当前选中文件到移动后（移动可以通过上下home、end、pgup、pgdn、鼠标左键）文件中间的所有文件。
 ctrl+a可以快速选取所有文件。
 按住ctrl+鼠标左键点击可以选中/不选某个文件，并且保留之前选中的文件不动。所以想要同时选中散开的三个文件，可以按住ctrl同时用鼠标左键分别单击三个文件。这和shift必须连起来的特性互相补充
-![[Pasted image 20231102232447.png]]
+![Pasted image 20231102232447](https://obsidian-notes-of-huangyh.oss-cn-hangzhou.aliyuncs.com/Pasted%20image%2020231102232447.png)
 
 注意ctrl是可以反选的，所以想要选取一个较大区域但是排除区域中个别文件，有一种骚操作是先用shift选出该区域，再按住ctrl+鼠标左键点击不想要的文件就可以排除，效果如下：
-![[Pasted image 20231102232755.png]]
+![Pasted image 20231102232755](https://obsidian-notes-of-huangyh.oss-cn-hangzhou.aliyuncs.com/Pasted%20image%2020231102232755.png)
 
 
 
