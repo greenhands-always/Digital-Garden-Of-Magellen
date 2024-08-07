@@ -20,10 +20,10 @@ Hi，我是Magellen，一个新手开发者。
 
 **最近创建：**
 
-{% assign recent_notes = site.notes | sort: "date created" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date created']}} — [{{ note.title }}](https://github.com/oldwinter/dg/blob/master/_pages/%7B%7B%20note.url%20%7D%7D)
+{% assign recent_notes = site.notes | sort: "date created" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date created']}} — [{{ note.title }}](https://github.com/greenhands-always/Digital-Garden-Of-Magellen/master/_pages/%7B%7B%20note.url%20%7D%7D)
 {% endfor %}
 
 **最近更新：**
 
-{% assign recent_notes = site.notes | sort: "date modified" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date modified']}} — [{{ note.title }}](https://github.com/oldwinter/dg/blob/master/_pages/%7B%7B%20note.url%20%7D%7D)
+{% assign recent_notes = site.notes | sort: "date modified" | reverse %} {% for note in recent_notes | limit: 6 %}- {{ note['date modified']}} — [{{ note.title }}](https://github.com/greenhands-always/Digital-Garden-Of-Magellen/master/_pages/%7B%7B%20note.url%20%7D%7D)
 {% endfor %}

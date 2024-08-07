@@ -9,6 +9,7 @@ father:
 aliases:
   - 同步非阻塞I/O
 title: NIO
+permalink: /java/nio
 ---
 Summary::同步阻塞模型，一个连接一个线程
 
