@@ -9,10 +9,14 @@ Hi，我是Magellen，一个新手开发者。
 
 
 **持续更新：**
-飞书知识库：[不可替代：大颠覆时代的生存之道](https://kv57sk4imd.feishu.cn/wiki/F36EwpIsDiSZCdk9aSecgl9Qnnd?fromScene=spaceOverview)
+
+[飞书知识库：不可替代：大颠覆时代的生存之道](https://kv57sk4imd.feishu.cn/wiki/F36EwpIsDiSZCdk9aSecgl9Qnnd?fromScene=spaceOverview)
 
 [[快速下班指南]]：致力于提高个人效率。
 
+[[Java后端开发知识库]]
+
+[计算机学习过程demo代码仓库](https://gitee.com/greenhands99/computer-system-learning-demo)
 
 **最近创建：**
 
