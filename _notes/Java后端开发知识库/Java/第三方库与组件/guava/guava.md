@@ -7,7 +7,8 @@ tags:
   - MOC
   - K/CS/java
 aliases: 
-MapLevel:
+MapLevel: 
+permalink: /java/guava
 ---
 # 内容地图
 ## 子地图
